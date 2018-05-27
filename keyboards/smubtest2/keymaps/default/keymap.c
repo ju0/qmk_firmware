@@ -42,7 +42,9 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
 
 
 void matrix_init_user(void) {
-
+  rgblight_enable();
+  rgblight_sethsv_magenta();
+  rgblight_mode(23);
 }
 
 void matrix_scan_user(void) {
