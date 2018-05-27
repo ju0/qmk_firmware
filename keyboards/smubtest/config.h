@@ -190,6 +190,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN D7     // The pin the LED strip is connected to
 #define RGBLED_NUM 8     // Number of LEDs in your strip
 #define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_TIMER
+
 
 #endif
