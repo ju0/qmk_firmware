@@ -1,0 +1,13 @@
+{
+    "keyboard_name": "Seattle Meetup Badge", 
+    "manufacturer": "monkey", 
+    "processor": "atmega32u4", 
+    "bootloader": "atmel-dfu", 
+    "width": 3, 
+    "height": 1, 
+    "layouts": {
+        "KEYMAP": {
+            "layout": [{"x":0, "y":0}, {"x":1, "y":0}, {"x":2, "y":0}]
+        }
+    }
+}
