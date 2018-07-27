@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
 */
 #define MATRIX_ROW_PINS { D3 }
-#define MATRIX_COL_PINS { D1, D2 }
+#define MATRIX_COL_PINS { F7, D5 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
@@ -188,7 +188,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define MIDI_TONE_KEYCODE_OCTAVES 1
 
 #define RGB_DI_PIN D7     // The pin the LED strip is connected to
-#define RGBLED_NUM 8     // Number of LEDs in your strip
+#define RGBLED_NUM 10     // Number of LEDs in your strip
 #define RGBLIGHT_ANIMATIONS
 
 #endif
