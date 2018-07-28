@@ -190,5 +190,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN D7     // The pin the LED strip is connected to
 #define RGBLED_NUM 10     // Number of LEDs in your strip
 #define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_LIMIT_VAL 5
+
+#define NO_USB_STARTUP_CHECK
 
 #endif
